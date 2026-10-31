@@ -1,0 +1,65 @@
+{
+  "_nota": "Valores REFERENCIALES. Reemplazar con datos reales de Tecniplast, S.A. (tarifa CNEE/EEGSA, factor de emision del AMM, facturas de resina, planilla).",
+  "modelo": {
+    "A_base": 96.0,
+    "alpha": 0.4,
+    "beta": 0.6,
+    "te_referencia": 0.4,
+    "ahorro_energia_max": 0.35,
+    "reduccion_merma_max": 0.5,
+    "capacidad_horas_maquina": 3300,
+    "ganancia_A_max": 0.15
+  },
+  "factores_emision_kgCO2e": {
+    "electricidad_kwh": 0.25,
+    "agua_m3": 0.34,
+    "PE": 2.0,
+    "PP": 1.95,
+    "PET": 2.2,
+    "PVC": 2.1,
+    "PS": 3.0,
+    "PCR": 0.6,
+    "BIO": 1.2
+  },
+  "costos_GTQ": {
+    "kwh": 1.35,
+    "agua_m3": 12.0,
+    "PE": 13.0,
+    "PP": 13.5,
+    "PET": 15.0,
+    "PVC": 12.0,
+    "PS": 14.5,
+    "PCR": 11.0,
+    "BIO": 28.0,
+    "hora_trabajo": 30.0,
+    "hora_maquina": 85.0,
+    "precio_carbono_por_tonelada": 250.0,
+    "impuesto_plastico_virgen_por_kg": 0.5
+  },
+  "umbrales_semaforo": {
+    "intensidad_verde_kg_por_unidad": 0.15,
+    "intensidad_rojo_kg_por_unidad": 0.25,
+    "merma_amarillo_pct": 5.0,
+    "merma_rojo_pct": 10.0,
+    "uso_capacidad_amarillo": 0.85,
+    "uso_capacidad_rojo": 0.95
+  },
+  "entrada_por_defecto": {
+    "kwh": 120000,
+    "agua_m3": 1500,
+    "resinas_kg": {
+      "PE": 9000,
+      "PP": 8000,
+      "PET": 4000,
+      "PVC": 2000,
+      "PS": 2000
+    },
+    "pcr_kg": 0,
+    "bio_kg": 0,
+    "trabajadores": 60,
+    "horas_trabajador": 200,
+    "horas_maquina": 3000,
+    "te": 0.4,
+    "merma_pct": 7.0
+  }
+}
