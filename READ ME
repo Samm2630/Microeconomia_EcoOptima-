@@ -1,0 +1,17 @@
+# EcoOptima Systems — Tecniplast, S.A.
+
+Prototipo en 3 capas:
+- `app.py`  → Capa 1: dashboard Streamlit (entradas, KPIs, semáforo, what-if, sensibilidad, historial)
+- `motor.py` → Capa 2: Cobb-Douglas adaptada, emisiones CO2e, costo eco-ajustado, escenarios
+- `datos/`  → Capa 3: `parametros.json` (modificable) y `historial.csv` (se crea al guardar)
+
+## Para ejecutar el programa
+    pip install -r requirements.txt
+    streamlit run app.py
+
+Recomendamos una prueba rápida del motor sin interfaz: `python motor.py`
+Como alternativa, descargar las librerias necesarias y el lenguaje python (version 2.14 en adelante), las librerias y versiones se adjuntan en el documento requirements.txt
+
+## A tener en consideracion
+Los valores de `parametros.json` son REFERENCIALES. Sustituir con tarifa eléctrica vigente,
+factor de emisión del sistema eléctrico guatemalteco, precios de resina y planilla reales para un resultado mas realista.
